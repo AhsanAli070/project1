@@ -1,0 +1,15 @@
+int red_led=20;
+int red_led2=14;
+void setup() {
+pingmod(red_led,output);
+pingmod(red_led2,output);
+
+}
+voidloop(){
+digitalwrite(led_led;HIGH);
+digitalwrite(led_led;LOW);
+delay(1000);
+digitalwrite(red_led;HIGH);.
+digitalwrite(led_led;LOW);
+delay(1000);
+}
